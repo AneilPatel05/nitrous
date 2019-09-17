@@ -1,32 +1,27 @@
 import { fromJSOrdered } from './utils/immutable';
 
 // sometimes it's impossible to use html tags to style coin name, hence usage of _UPPERCASE modifier
-export const APP_NAME = 'WeedCash';
+export const APP_NAME = 'Swapsteem.club';
 // sometimes APP_NAME is written in non-latin characters, but they are needed for technical purposes
 // ie. "Голос" > "Golos"
-export const APP_NAME_LATIN = 'WeedCash';
-export const APP_NAME_UPPERCASE = 'WEEDCASH';
-export const APP_ICON = 'weedcash';
+export const APP_NAME_LATIN = 'Swapsteem';
+export const APP_NAME_UPPERCASE = 'SWAPSTEEM.CLUB';
+export const APP_ICON = 'swapsteem';
 // FIXME figure out best way to do this on both client and server from env
 // vars. client should read $STM_Config, server should read config package.
-export const APP_URL = 'https://www.weedcash.network';
-export const APP_DOMAIN = 'www.weedcash.network';
+export const APP_URL = 'https://swapsteem.club';
+export const APP_DOMAIN = 'swapsteem.club';
 // max num of tags. if unset, default is 10. This is due to previous hardcoded number.
 export const APP_MAX_TAG = 10;
-export const SCOT_TAG = 'weedcash';
-export const TAG_LIST = fromJSOrdered([
-    'weedcash',
-    'weed',
-    'cannabis',
-    'psychedelic',
-]);
-export const LIQUID_TOKEN = 'Weed';
+export const SCOT_TAG = 'swapsteem';
+export const TAG_LIST = fromJSOrdered(['swapsteem']);
+export const LIQUID_TOKEN = 'SWAP';
 // sometimes it's impossible to use html tags to style coin name, hence usage of _UPPERCASE modifier
-export const LIQUID_TOKEN_UPPERCASE = 'WEED';
+export const LIQUID_TOKEN_UPPERCASE = 'SWAP';
 // used as backup
 export const SCOT_DENOM = 100000000;
 export const VOTE_WEIGHT_DROPDOWN_THRESHOLD = 1;
-export const VESTING_TOKEN = 'WEED POWER';
+export const VESTING_TOKEN = 'SWAP POWER';
 export const INTERLEAVE_PROMOTED = true;
 export const PROMOTED_POST_ACCOUNT = 'null';
 
